@@ -1,0 +1,33 @@
+.media{
+
+margin: 6px 20px;
+
+display: flex;
+flex-direction: column;
+ 
+width: 17rem;
+padding: 10px;
+border-radius: 20px;
+background-color: coral;
+position: relative;
+ 
+}
+.media:hover {
+    background-color: azure;
+    color: black;
+}
+.poster{
+    border-radius: 20px;
+}
+.myP{
+    font-size: 1.6rem;
+   
+    text-align: center;
+    padding: 8px 0;
+}
+.subTitle{
+    
+    display: flex; 
+    justify-content: space-between;
+    padding: 4px 5px;
+}
