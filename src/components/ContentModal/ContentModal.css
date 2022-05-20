@@ -81,9 +81,10 @@
    margin-bottom: 30px;
   }
  .ContentModal{
-   width: 75%;
-   height: fit-content;
-   margin-top: 2px;
+   width: 90%;
+  height: fit-content;
+   margin-top: 4px;
+  margin-bottom: 100px;
  }
  .ContentModal__portrait{
    display: none;
