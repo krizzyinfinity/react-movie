@@ -29,7 +29,7 @@
   align-items: center;
   border: "1px solid #282c34";
   border-radius: 10px;
-  margin: 50px auto;
+  margin: 25px auto;
 }
 
   
@@ -74,9 +74,16 @@
   display: none;
 }
 @media (max-width: 800px) {
+
+  .bttn {
+    height: fit-content;
+   font-size: 1rem;
+   margin-bottom: 30px;
+  }
  .ContentModal{
-   width: 80%;
+   width: 75%;
    height: fit-content;
+   margin-top: 2px;
  }
  .ContentModal__portrait{
    display: none;
@@ -89,10 +96,11 @@
   }
   .ContentModal__description{
    
-  font-size: .8rem;
+  font-size: .7rem;
    padding: 9px;
-   height: 70%;
-   
+  
+  height: fit-content;
+ 
   }
   
 }

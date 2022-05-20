@@ -12,6 +12,7 @@
   }
   @media(max-width: 425px){
     .carouselItem{
-      font-size: .8rem;
+      font-size: .6rem;
     }
+    
   }

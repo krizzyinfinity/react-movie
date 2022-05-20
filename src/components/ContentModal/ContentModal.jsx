@@ -104,7 +104,7 @@ export default function ContentModal({children, media_type, id}) {
                   <div className='carousel'>
                     <Carousel id={id} media_type={media_type} />
                   </div> 
-
+<div className='bttn'>
                    <Button
                    
                     variant="contained"
@@ -113,10 +113,9 @@ export default function ContentModal({children, media_type, id}) {
                     size='small'
                     target="__blank"
                     href={`https://www.youtube.com/watch?v=${video}`}
-                  >
-                    Watch the Trailer
+                  >Watch the Trailer
                   </Button>
-                  
+                  </div>
                 </div>
               </div>
             
